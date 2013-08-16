@@ -15,5 +15,6 @@
   </properties>
   <modules>
     <module>crawl-novel-core</module>
+    <module>crawl-novel-web</module>
   </modules>
 </project>
