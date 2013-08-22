@@ -7,9 +7,7 @@
     <artifactId>crawl-novel</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.zs</groupId>
   <artifactId>crawl-novel-web</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>crawl-novel-web Maven Webapp</name>
   <url>http://maven.apache.org</url>
