@@ -17,5 +17,6 @@
     <module>crawl-novel-core</module>
     <module>crawl-novel-web</module>
     <module>crawl-novel-common</module>
+    <module>crawl-novel-coreservice</module>
   </modules>
 </project>
