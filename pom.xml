@@ -7,9 +7,22 @@
 	<artifactId>crawl-novel</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-
 	<name>crawl-novel</name>
 	<url>http://maven.apache.org</url>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+		</license>
+	</licenses>
+
+	<modules>
+		<module>crawl-novel-core</module>
+		<module>crawl-novel-web</module>
+		<module>crawl-novel-common</module>
+		<module>crawl-novel-server</module>
+	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -20,12 +33,16 @@
 		<spring.version>3.1.4.RELEASE</spring.version>
 		<jetty.version>8.1.3.v20120416</jetty.version>
 	</properties>
-	<modules>
-		<module>crawl-novel-core</module>
-		<module>crawl-novel-web</module>
-		<module>crawl-novel-common</module>
-		<module>crawl-novel-server</module>
-	</modules>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webmvc</artifactId>
+				<version>${spring.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<build>
 		<pluginManagement>
@@ -77,13 +94,4 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-
-	<dependencyManagement>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
-	</dependencyManagement>
-
 </project>
