@@ -76,8 +76,9 @@
 		
 		<dependency>
 			<groupId>com.zs</groupId>
-			<artifactId>crawl-novel</artifactId>
+			<artifactId>crawl-novel-common</artifactId>
 			<version>1.0-SNAPSHOT</version>
+			
 		</dependency>
 
 		<dependency>
