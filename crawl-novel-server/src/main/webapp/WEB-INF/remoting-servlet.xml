@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<description>crawl-novel-server公布的远程服务(Hessian)</description>
+
+	<!-- 远程服务发布器 -->
+	<bean name="abstractHessianServiceExporter"	class="org.springframework.remoting.caucho.HessianServiceExporter" scope="prototype" abstract="true" />
+
+	<bean name="/crawlTestService" parent="abstractHessianServiceExporter">
+		<property name="service" ref="crawlTestService" />
+		<property name="serviceInterface" value="com.aicai.vip.common.service.VipReadService" />
+	</bean>
+
+</beans>
+
