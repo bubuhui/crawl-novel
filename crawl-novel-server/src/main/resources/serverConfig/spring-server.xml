@@ -7,7 +7,7 @@
 
 	<context:component-scan base-package="com.zs" />
 
-	<import resource="classpath*:/vipServiceServerConfig/spring-schedular.xml" />
-	<import resource="classpath*:/vipServiceServerConfig/spring-appconfig.xml" />
+	<import resource="classpath*:/serverConfig/spring-schedular.xml" />
+	<import resource="classpath*:/serverConfig/spring-appconfig.xml" />
 
 </beans>
