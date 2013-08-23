@@ -7,7 +7,6 @@
 		<groupId>com.zs</groupId>
 		<artifactId>crawl-novel</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath></relativePath>
 	</parent>
 	<groupId>com.zs.crawl.core</groupId>
 	<artifactId>crawl-novel-server</artifactId>
