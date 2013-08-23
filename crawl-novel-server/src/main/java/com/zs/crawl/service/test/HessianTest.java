@@ -1,7 +1,7 @@
 package com.zs.crawl.service.test;
 
 import com.caucho.hessian.client.HessianProxyFactory;
-import com.zs.novel.common.service.CrawlTestService;
+import com.zs.crawl.common.service.CrawlTestService;
 
 import java.net.MalformedURLException;
 

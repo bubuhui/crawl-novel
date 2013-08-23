@@ -1,6 +1,6 @@
 package com.zs.crawl.service;
 
-import com.zs.novel.common.service.CrawlTestService;
+import com.zs.crawl.common.service.CrawlTestService;
 
 /**
  * 
