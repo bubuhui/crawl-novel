@@ -13,9 +13,9 @@
 		<property name="queueCapacity" value="25" />
 	</bean>
 	
-    <task:scheduler id="aicaiGardenRankScheduler" pool-size="1" />
-	<task:scheduled-tasks scheduler="aicaiGardenRankScheduler">
-		<task:scheduled ref="aicaiGardenRankTask" method="run" cron="0 0 3 * * ?" />
+    <task:scheduler id="testScheduler" pool-size="1" />
+	<task:scheduled-tasks scheduler="testScheduler">
+		<task:scheduled ref="testTask" method="run" cron="0 0/1 * * * ?" />
 	</task:scheduled-tasks>
 
 </beans>
