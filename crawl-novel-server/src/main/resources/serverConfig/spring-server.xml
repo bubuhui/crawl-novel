@@ -9,5 +9,6 @@
 
 	<import resource="classpath*:/serverConfig/spring-schedular.xml" />
 	<import resource="classpath*:/serverConfig/spring-appconfig.xml" />
+    <import resource="classpath*:/serverConfig/spring-service.xml" />
 
 </beans>

@@ -10,7 +10,7 @@
 
 	<bean name="/crawlTestService" parent="abstractHessianServiceExporter">
 		<property name="service" ref="crawlTestService" />
-		<property name="serviceInterface" value="com.aicai.vip.common.service.VipReadService" />
+		<property name="serviceInterface" value="com.zs.novel.common.service.CrawlTestService" />
 	</bean>
 
 </beans>
