@@ -8,9 +8,7 @@
         <artifactId>crawl-novel</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>com.zs</groupId>
     <artifactId>crawl-novel-core</artifactId>
-    <version>1.0-SNAPSHOT</version>
     <name>crawl-novel-core</name>
     <url>http://maven.apache.org</url>
     <properties>
